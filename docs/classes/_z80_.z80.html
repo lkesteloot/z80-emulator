@@ -106,7 +106,8 @@
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#inctstatecount" class="tsd-kind-icon">incTState<wbr>Count</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#interrupt" class="tsd-kind-icon">interrupt</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#maskableinterrupt" class="tsd-kind-icon">maskable<wbr>Interrupt</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#nonmaskableinterrupt" class="tsd-kind-icon">non<wbr>Maskable<wbr>Interrupt</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#popbyte" class="tsd-kind-icon">pop<wbr>Byte</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#popword" class="tsd-kind-icon">pop<wbr>Word</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#pushbyte" class="tsd-kind-icon">push<wbr>Byte</a></li>
@@ -114,6 +115,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#readbyte" class="tsd-kind-icon">read<wbr>Byte</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#readbyteinternal" class="tsd-kind-icon">read<wbr>Byte<wbr>Internal</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#readport" class="tsd-kind-icon">read<wbr>Port</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#readword" class="tsd-kind-icon">read<wbr>Word</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#reset" class="tsd-kind-icon">reset</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#step" class="tsd-kind-icon">step</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_z80_.z80.html#writebyte" class="tsd-kind-icon">write<wbr>Byte</a></li>
@@ -136,7 +138,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L23">Z80.ts:23</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L23">Z80.ts:23</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -158,7 +160,7 @@
 					<div class="tsd-signature tsd-kind-icon">hal<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_hal_.hal.html" class="tsd-signature-type">Hal</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L16">Z80.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L16">Z80.ts:16</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -173,7 +175,7 @@
 					<div class="tsd-signature tsd-kind-icon">parity<wbr>Table<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L22">Z80.ts:22</a></li>
+							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L22">Z80.ts:22</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -183,7 +185,7 @@
 					<div class="tsd-signature tsd-kind-icon">regs<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RegisterSet</span><span class="tsd-signature-symbol"> =&nbsp;new RegisterSet()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L12">Z80.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L12">Z80.ts:12</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -198,7 +200,7 @@
 					<div class="tsd-signature tsd-kind-icon">sz53<wbr>Table<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L21">Z80.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L21">Z80.ts:21</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -214,7 +216,7 @@
 					<div class="tsd-signature tsd-kind-icon">sz53p<wbr>Table<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L23">Z80.ts:23</a></li>
+							<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L23">Z80.ts:23</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -231,7 +233,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L47">Z80.ts:47</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L47">Z80.ts:47</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -250,21 +252,43 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="interrupt" class="tsd-anchor"></a>
-					<h3>interrupt</h3>
+					<a name="maskableinterrupt" class="tsd-anchor"></a>
+					<h3>maskable<wbr>Interrupt</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">interrupt<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">maskable<wbr>Interrupt<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L54">Z80.ts:54</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L54">Z80.ts:54</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Interrupt the CPU.</p>
+									<p>Interrupt the CPU with a maskable interrupt</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="nonmaskableinterrupt" class="tsd-anchor"></a>
+					<h3>non<wbr>Maskable<wbr>Interrupt</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">non<wbr>Maskable<wbr>Interrupt<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L63">Z80.ts:63</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Interrupt the CPU with a non-maskable interrupt</p>
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -281,7 +305,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L140">Z80.ts:140</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L154">Z80.ts:154</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -303,7 +327,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L131">Z80.ts:131</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L145">Z80.ts:145</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -325,7 +349,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L123">Z80.ts:123</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L137">Z80.ts:137</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -353,7 +377,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L115">Z80.ts:115</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L129">Z80.ts:129</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -381,7 +405,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L66">Z80.ts:66</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L70">Z80.ts:70</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -409,7 +433,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L74">Z80.ts:74</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L88">Z80.ts:88</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -437,12 +461,40 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L105">Z80.ts:105</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L119">Z80.ts:119</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Read a byte from a port, taking as many clock cycles as necessary.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>address: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="readword" class="tsd-anchor"></a>
+					<h3>read<wbr>Word</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">read<wbr>Word<span class="tsd-signature-symbol">(</span>address<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L78">Z80.ts:78</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Reads a word at the specified address. Reads the low byte first.</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -465,7 +517,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L33">Z80.ts:33</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L33">Z80.ts:33</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -487,7 +539,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L40">Z80.ts:40</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L40">Z80.ts:40</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -509,7 +561,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L81">Z80.ts:81</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L95">Z80.ts:95</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -540,7 +592,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L89">Z80.ts:89</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L103">Z80.ts:103</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -571,7 +623,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/2b9f868/src/Z80.ts#L96">Z80.ts:96</a></li>
+									<li>Defined in <a href="https://github.com/lkesteloot/z80-emulator/blob/e154ba9/src/Z80.ts#L110">Z80.ts:110</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -646,7 +698,10 @@
 								<a href="_z80_.z80.html#inctstatecount" class="tsd-kind-icon">incTState<wbr>Count</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="_z80_.z80.html#interrupt" class="tsd-kind-icon">interrupt</a>
+								<a href="_z80_.z80.html#maskableinterrupt" class="tsd-kind-icon">maskable<wbr>Interrupt</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_z80_.z80.html#nonmaskableinterrupt" class="tsd-kind-icon">non<wbr>Maskable<wbr>Interrupt</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="_z80_.z80.html#popbyte" class="tsd-kind-icon">pop<wbr>Byte</a>
@@ -668,6 +723,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="_z80_.z80.html#readport" class="tsd-kind-icon">read<wbr>Port</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_z80_.z80.html#readword" class="tsd-kind-icon">read<wbr>Word</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="_z80_.z80.html#reset" class="tsd-kind-icon">reset</a>
