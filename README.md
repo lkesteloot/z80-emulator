@@ -1,3 +1,5 @@
+This project has been moved to https://github.com/lkesteloot/trs80
+
 # z80-emulator
 
 This is a TypeScript-based Z80 emulator. It passes the 1356 tests of the
